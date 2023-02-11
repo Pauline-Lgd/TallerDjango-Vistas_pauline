@@ -22,3 +22,4 @@ def create_measurement(meas):
 def delete_measurement(meas_pk):
     measurement = get_measurement(meas_pk)
     measurement.delete()
+    return measurement
